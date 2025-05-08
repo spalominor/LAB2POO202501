@@ -30,10 +30,10 @@ public class Main {
         // Crear un objeto de tipo Usuario con datos predeterminados
         Usuario usuario = new Usuario();
         usuario.setNombre("Samuel Palomino");
-        usuario.setId(1035979728);
+        usuario.setId(1035979728L);
         usuario.setFecha_nacimiento(fechaNacimiento);
         usuario.setCiudad_nacimiento("Medellín");
-        usuario.setTel(367171717);
+        usuario.setTel(3167119600L);
         usuario.setEmail("samu@gmail.com");
         usuario.setDir(direccion);
 
@@ -51,7 +51,7 @@ public class Main {
         // Solicitar ID
         System.out.print("Ingrese el ID: ");
         long id = scanner.nextLong();
-        scanner.nextLine(); 
+        scanner.nextLine();
 
         // Solicitar fecha de nacimiento
         System.out.print("Ingrese el día de nacimiento: ");
